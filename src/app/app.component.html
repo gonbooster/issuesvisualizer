@@ -1,0 +1,5 @@
+<form class="form-wrapper cf" #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+    <input type="text" placeholder="Enter github URL..." name="search" ngModel>
+    <button class="go" type="submit" md-raised-button color="accent">Go</button>
+</form>
+<router-outlet></router-outlet>

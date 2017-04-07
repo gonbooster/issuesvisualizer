@@ -1,0 +1,18 @@
+.proyect {
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.author {
+    margin-bottom: 10px;
+}
+
+.issue {
+    filter: shadow(color=#999999, direction=135, strength=2);
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 3px solid green;
+    margin-bottom: 20px;
+}
